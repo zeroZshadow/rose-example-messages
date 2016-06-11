@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package pb;
+
+import "RoomInfo.proto";
+
+message ListRoomsResponse {
+	string region = 1;
+	repeated pb.RoomInfo rooms = 2;
+}

@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package pb.test;
+
+import "ChatMessage.proto";
+
+message Thingy {
+	pb.ChatMessage message = 1;
+}

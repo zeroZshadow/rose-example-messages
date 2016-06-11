@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package pb;
+
+message RoomInfo {
+	uint64 id = 1;
+	int32 playerCount = 2;
+	int32 playerMax = 3;
+	int32 state = 4;
+	string name = 5;
+}

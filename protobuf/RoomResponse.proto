@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package pb;
+
+message RoomResponse {
+	bool success = 1;
+	uint64 id = 2;
+}

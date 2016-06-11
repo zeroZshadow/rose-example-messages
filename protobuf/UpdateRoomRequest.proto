@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package pb;
+
+import "RoomInfo.proto";
+
+message UpdateRoomRequest {
+	pb.RoomInfo room = 1;
+	bool remove = 2;
+}

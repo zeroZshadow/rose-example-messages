@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package pb;
+
+message JoinRoomResponse {
+	bool success = 1;
+	uint64 id = 2;
+	string address = 3;
+	bytes authtoken = 4;
+}

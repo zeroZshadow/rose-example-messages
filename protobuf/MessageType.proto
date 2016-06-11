@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package pb;
+
+enum MessageType {
+	// Shared
+	CreateRoom = 0;
+	JoinRoom = 1;
+	
+	// Master
+	ListRooms = 100;
+	
+	// Game
+	RegisterNode = 200;
+	UpdateRoom = 201;
+	Chat = 202;
+}
